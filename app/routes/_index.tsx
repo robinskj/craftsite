@@ -5,10 +5,8 @@ the <Outlet> has nothing to render because no children match.
  export default function Index() {
     return (
       <p id="index-page">
-        This is a demo for Remix.
+        Replace with hub or intro page
         <br />
-        Check out{" "}
-        <a href="https://remix.run">the docs at remix.run</a>.
       </p>
     );
   }
