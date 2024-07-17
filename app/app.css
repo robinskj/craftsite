@@ -119,6 +119,7 @@ body {
   margin-right: 0.5rem;
   position: relative;
   top: 1px;
+
 }
 
 #sidebar > div {
@@ -168,6 +169,10 @@ body {
   }
 }
 
+#sidebar img {
+  height: 80px;
+  width: 80px;
+}
 #sidebar nav {
   flex: 1;
   overflow: auto;
@@ -372,8 +377,10 @@ i {
 #index-page:before {
   display: block;
   margin-bottom: 0.5rem;
+  content: url(./images/logo_large.png);
   
 }
+  
 
 #error-page {
   display: flex;

@@ -2,10 +2,12 @@
 the <Outlet> has nothing to render because no children match.
  You can think of index routes as the default child route to fill in that space.*/
 
+ // <img src={logoLarge} />
+ import logoLarge from "../images/logo_large.png"; 
  export default function Index() {
     return (
       <p id="index-page">
-        Replace with hub or intro page
+        <img src={logoLarge} />
         <br />
       </p>
     );

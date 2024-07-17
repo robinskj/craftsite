@@ -12,6 +12,7 @@ import {
   useNavigation,
   useSubmit,
 } from "@remix-run/react";
+import logo from "./images/logo_small.png";
 import appStylesHref from "./app.css?url";
 import { json, redirect } from "@remix-run/node";
 
@@ -58,7 +59,7 @@ export default function App() {
       </head>
       <body>
         <div id="sidebar">
-          <h1>Contacts</h1>
+        <h1><img src={logo} /></h1>
           <div>
             <Form
               id="search-form"
